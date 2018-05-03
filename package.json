@@ -1,0 +1,9 @@
+{
+  "name": "historical-rates-service",
+  "version": "1.0.0",
+  "description": "Fetch historical exchange rates from ECB",
+  "main": "index.js",
+  "repository": "https://github.com/GitHug/historical-rates-service.git",
+  "author": "Fredrik Mäkilä <fredrik.makila@gmail.com>",
+  "license": "MIT"
+}
