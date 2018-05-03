@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+require('./cache').init();
 const { fetchRates } = require('./fetchRates');
 
 const app = express();

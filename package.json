@@ -18,7 +18,8 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.11.0",
     "nock": "^9.2.5",
-    "rewire": "^4.0.1"
+    "rewire": "^4.0.1",
+    "sinon": "^5.0.3"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
@@ -26,6 +27,7 @@
     "csv-parse": "^2.2.0",
     "express": "^4.16.3",
     "mocha": "^5.1.1",
+    "node-cache": "^4.2.0",
     "request": "^2.85.0",
     "request-promise": "^4.2.2",
     "unzipper": "^0.8.13",
