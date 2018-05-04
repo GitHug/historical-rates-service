@@ -22,6 +22,8 @@ const fetchRates = async () => {
     clean();
     logger.info('Historical rates fetched successfully');
 
+    // The original array is in reverse chronological order
+    json.reverse();
     cache.set(key, json);
 
     return json;

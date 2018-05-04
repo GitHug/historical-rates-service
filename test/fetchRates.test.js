@@ -20,7 +20,7 @@ describe('fetchRates', () => {
     const stub = sinon.stub();
     const rev = fetchRates.__set__('parse', async () => {
       stub();
-      return { test: 'data' };
+      return [{ test: 'data' }];
     });
 
     try {
