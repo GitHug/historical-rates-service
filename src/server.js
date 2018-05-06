@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 require('./cache').init();
@@ -13,6 +14,6 @@ app.get('/rates/historical', (_, res) => fetchRates()
   .then(data => res.json(data))
   .catch(e => res.status(500).json(e.message)));
 
-app.listen(4001);
+app.listen(process.env.PORT || 4001);
 
 module.exports = app;

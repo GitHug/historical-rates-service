@@ -25,6 +25,7 @@
     "cheerio": "^1.0.0-rc.2",
     "cors": "^2.8.4",
     "csv-parse": "^2.2.0",
+    "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "mocha": "^5.1.1",
     "node-cache": "^4.2.0",
