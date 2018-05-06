@@ -16,6 +16,11 @@ To run:
 yarn start
 ````
 
+To run tests:
+```
+yarn test
+```
+
 To call the service on localhost: `localhost:4001/rates/historical`.
 
 Results are cached and subsequent calls will be faster.
