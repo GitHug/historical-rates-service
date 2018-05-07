@@ -12,8 +12,8 @@ const { expect } = chai;
 describe('fetchRates', () => {
   it('should be able to fetchRates without failing', async () => {
     const data = await fetchRates.fetchRates();
-    expect(data.length).to.be.above(100);
-  });
+    return expect(data.length).to.be.above(100);
+  }).timeout(5000);
 
   it('should cache the result', async () => {
     /* eslint-disable no-underscore-dangle */
